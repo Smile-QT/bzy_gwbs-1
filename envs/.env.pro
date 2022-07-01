@@ -2,7 +2,7 @@ DEBUG=off
 SECRET_KEY=(j9n&9z9khcf$8@!)h(-0wdn^*(2zm8zf93!o=deg9jwwa8x49
 X_FRAME_OPTIONS=SAMEORIGIN
 #DATABASE_URL=postgres://gwbs:aHfOQhnsPSSlOFcHeDL2@192.168.5.13:30897/gwbs
-#DATABASE_URL=postgres://gwbs:aHfOQhnsPSSlOFcHeDL2@db:5432/gwbs
+DATABASE_URL=postgres://gwbs:aHfOQhnsPSSlOFcHeDL2@db:5432/gwbs
 SQLITE_URL=sqlite:///db.sqlite3
 #MySQL_URL=mysql://root:bzy_api@db:3306/bzy_api
 #PostgreSQL_URL=postgres://bzyapi:postgres@192.168.5.13:30897/bzyapi

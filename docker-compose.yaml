@@ -11,3 +11,10 @@ services:
       - ../data:/wwwroot/logs
     environment:
       "PROJECT_ENV": "pro"
+  db:
+    image: postgres:9.6
+    ports:
+      - "5432:5432"
+    environment:
+      "POSTGRES_PASSWORD": "aHfOQhnsPSSlOFcHeDL2"
+      "POSTGRES_USER": "gwbs"
