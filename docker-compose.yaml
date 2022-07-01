@@ -1,0 +1,13 @@
+version: "3"
+services:
+  web:
+    #    image: 192.168.5.13:9000/web/gwbs:offline_v2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:80"
+    volumes:
+      - ../data:/wwwroot/logs
+    environment:
+      "PROJECT_ENV": "pro"
